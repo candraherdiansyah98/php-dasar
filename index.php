@@ -8,8 +8,11 @@
 </head>
 
 <body>
-    <?php $nama = "Candra"?>
+    <?php $nama = "Candra";
+        $umur           = 27;
+    ?>
     <h1>Selamat datang,<?php echo $nama; ?>!</h1>
+    <p>Umur Anda:                  <?php echo $umur; ?> tahun</p>
 </body>
 
 </html>
